@@ -1,4 +1,4 @@
-export default {
+const Title = {
   name: 'Title',
   accessKeyClassName: 'title--accesskey-mode',
   element: document.querySelector('#title'),
@@ -14,3 +14,7 @@ export default {
     });
   },
 };
+
+Object.freeze(Title);
+
+export default Title;
