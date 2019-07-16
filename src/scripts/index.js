@@ -1,8 +1,6 @@
 import title from './modules/title.js';
 
 (function init() {
-  title.init();
-
   document.addEventListener('keydown', ({ ctrlKey, altKey }) => {
     if (ctrlKey && altKey) {
       title.setAccessKeyMode();

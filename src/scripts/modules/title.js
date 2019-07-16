@@ -15,6 +15,7 @@ const Title = {
   },
 };
 
+Title.init();
 Object.freeze(Title);
 
 export default Title;
