@@ -4,6 +4,7 @@
   "description": "Prove of concept on detecting combination keys for a11y purposes",
   "main": "index.js",
   "scripts": {
+    "dev": "lite-server -c configs/lite-server.config.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,6 +16,7 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.0"
+    "eslint-plugin-import": "^2.18.0",
+    "lite-server": "^2.5.3"
   }
 }
